@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(237, 130, 100) !important;
+    color: white !important;
+}
+
+div.container {
+    background-color: rgb(208, 42, 42);
+    margin-bottom: 50px;
+    padding: 25px;
+    border-radius: 25px;
+}
+
+div.container:hover {
+    transform: scale(1.05);
+    transition: ease-in-out 0.5s;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+}
