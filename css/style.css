@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: cornflowerblue !important;
+}
+
+div.container {
+    background-color: rgb(174, 168, 247);
+    margin-bottom: 50px;
+    padding: 25px;
+    border-radius: 25px;
+}
+
+div.container:hover {
+    transform: scale(1.05);
+    transition: ease-in-out 0.5s;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+}
